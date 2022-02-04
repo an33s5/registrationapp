@@ -1,0 +1,26 @@
+{
+  "editor.fontSize": 15,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "material-icon-theme.activeIconPack": "react",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.format.templating": true,
+  "editor.hover.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "prettier.semi": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": true,
+  "window.zoomLevel": 1,
+  "editor.formatOnType": true,
+}

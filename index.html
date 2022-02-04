@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: #323232;
+            color: wheat;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container h1 {
+            font-size: 45px;
+            margin-top: 100px;
+
+        }
+
+        .entries {
+            margin-top: 60px;
+        }
+
+        * {
+            margin-top: 30px;
+        }
+
+        label {
+            font-size: 23px;
+        }
+
+
+        input {
+            font-size: 18px;
+            width: 300px;
+            height: 25px;
+            background-color: wheat;
+            border-radius: 10px 25px;
+            padding-left: 15px;
+            padding-right: 12px;
+            text-align: center;
+        }
+
+        .copyright {
+            margin-top: 100px;
+        }
+
+        button {
+            border: transparent;
+            font-size: 20px;
+            border-radius: 10px 25px;
+            padding: 5px 12px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: wheat;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer Registration</h1>
+        <div class="entries">
+            <label>Name:</label>
+            <input id="name" type="text" />
+            <br />
+            <label>Phone:</label>
+            <input id="phone" type="number" />
+            <br />
+            <label>Email:</label>
+            <input id="email" type="email" />
+            <br />
+            <!-- <label>State:</label>
+            <input id="state" type="radio" />
+            <br />
+            <label>Email:</label>
+            <input id="email" type="email" />
+            <br />
+            <label>Email:</label>
+            <input id="email" type="email" />
+            <br /> -->
+        </div>
+        <button id="search">Create</button>
+        <br />
+        <br />
+        <button id="show-all">Show All Customers</button>
+    </div>
+
+    <p class="copyright">© Redscape
+    <p> 6311 Richmond Hwy, Alexandria, Virginia, 22306</p>
+    </p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
